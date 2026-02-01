@@ -8,4 +8,14 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="booth_10">Booth 10</string>
+    <string name="booth_9">Booth 9</string>
+    <string name="booth_8">Booth 8</string>
+    <string name="booth_7">Booth 7</string>
+    <string name="booth_6">Booth 6</string>
+    <string name="booth_5">Booth 5</string>
+    <string name="booth_4">Booth 4</string>
+    <string name="booth_3">Booth 3</string>
+    <string name="booth_2">Booth 2</string>
+    <string name="booth_1">Booth 1</string>
 </resources>
