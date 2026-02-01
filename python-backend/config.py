@@ -1,8 +1,8 @@
 
 VIDEO_FILES = {
-    'A1': 'static/demo_videos/booth_A1_free.mp4',
-    'A2': 'static/demo_videos/booth_A2_laying_down.mp4',
-    'A3': 'static/demo_videos/booth_A3_three_people.mp4'
+    'A1': 'static/booth_A1_free.mp4',
+    'A2': 'static/booth_A2_laying_down.mp4',
+    'A3': 'static/booth_A3_three_people.mp4'
 }
 
 OCCUPANCY_CRITERIA = {

@@ -4,7 +4,12 @@ from config import INITIAL_SPACES
 
 class SpaceManager:
     def __init__(self):
-        self.spaces = INITIAL_SPACES.copy()
+        self.spaces = {}
+        for spaceId, data in INITIAL_SPACES.items():
+            self.spaces[spaceId] = {
+                'reserved_until': None,
+                'reservation_time': None
+            }
         self.videoStartTime = None
     
     def getAll(self):
@@ -33,4 +38,4 @@ class SpaceManager:
         self.videoStartTime = None
     
     def tieBreaker(self, names):
-        return random.choice(self, names)
+        return random.choice(names)
