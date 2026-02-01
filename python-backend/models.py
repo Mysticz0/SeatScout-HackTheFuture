@@ -6,15 +6,17 @@ class SpaceManager:
     def __init__(self):
         self.spaces = {}
         for spaceId, data in INITIAL_SPACES.items():
-            self.spaces[spaceId] = {
+            self.spaces[spaceId] = {'space_id': spaceId,
+                'status': 'available',
+                'person_count': 0,
                 'reserved_until': None,
                 'reservation_time': None
             }
         self.videoStartTime = None
-    
+    #get space values
     def getAll(self):
         return self.spaces
-    
+    #get IDs
     def getOne(self, spaceId):
         return self.spaces.get(spaceId)
     
@@ -26,6 +28,7 @@ class SpaceManager:
         return False
     #------------AI ENDS HERE--------------
 
+    #functions for video playing, getting data, etc.
     def startVideo(self):
         self.videoStartTime = time.time()
     
