@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.seatscout_android_app.databinding.FragmentSecondBinding;
-
+//---------ENTIRE-SECOND-FRAGMENT-NOT-NEEDED---------------------
 public class SecondFragment extends Fragment {
 
     private FragmentSecondBinding binding;
