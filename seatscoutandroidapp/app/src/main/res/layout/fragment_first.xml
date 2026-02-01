@@ -31,6 +31,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth1Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -56,6 +57,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth2Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -90,6 +92,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth3Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -115,6 +118,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth4Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -148,6 +152,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth5Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -173,6 +178,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth6Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -205,6 +211,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth7Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -220,7 +227,7 @@
             android:layout_weight="1" />
         <!-- AI ENDS -->
 
-        <!-- Booth 4 -->
+        <!-- Booth 8 -->
         <androidx.cardview.widget.CardView
             android:id="@+id/booth8"
             android:layout_width="100dp"
@@ -230,6 +237,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth8Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -261,6 +269,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth9Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -286,6 +295,7 @@
             app:cardCornerRadius="8dp">
 
             <TextView
+                android:id="@+id/booth10Text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
