@@ -115,7 +115,7 @@ private static final String BASE_URL = "https://your-ngrok-url.ngrok-free.app/";
 ### Booth Status Colors
 
 - 🟢 **Green** - Available (0 people)
-- 🟡 **Yellow** - Reserved (10-minute reservation)
+- 🟡 **Yellow** - Reserved (10-second reservation)
 - 🔴 **Red** - Occupied (people detected)
 
 ### Automatic Updates
@@ -256,20 +256,6 @@ INITIAL_SPACES = {
 }
 ```
 
-## 👥 Team Collaboration
-
-### For Backend Developer (Python)
-1. Pull latest changes: `git pull`
-2. Work in `python-backend/` folder
-3. Test endpoints with curl or Postman
-4. Commit and push changes
-
-### For Frontend Developer (Android)
-1. Pull latest changes: `git pull`
-2. Work in `android-app/` folder
-3. Test UI and API integration
-4. Commit and push changes
-
 ## 📱 Testing
 
 ### Test Booth Reservation Flow
@@ -283,27 +269,6 @@ INITIAL_SPACES = {
 1. Try to reserve an already reserved booth
 2. Should show error: "Booth is already reserved"
 
-## 🚀 Deployment (Future)
-
-### Backend
-- Deploy Flask app to Heroku, Railway, or AWS
-- Replace ngrok URL with production URL
-
-### Android
-- Build signed APK
-- Publish to Google Play Store
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m "Add feature"`
-4. Push to branch: `git push origin feature-name`
-5. Submit a pull request
 
 
-**Built with ❤️ using Android Studio, Flask, and Computer Vision AI**
+**Built with Android Studio, Flask, and YOLOv8 Computer Vision AI**
